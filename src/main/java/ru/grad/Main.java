@@ -7,15 +7,10 @@ public class Main {
         System.out.printf(getHello());
 
         }
-
+    public static String msg = "Hello everone!";
 
     private static String getHello(){
-        return "Hello everynyan";
+        return msg;
     }
 
-        private static String msg = "Hello everone!";
-
-        System.out.printf("Hello everynyan!");
-
-    }
 }
